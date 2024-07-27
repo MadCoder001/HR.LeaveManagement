@@ -13,6 +13,7 @@ namespace HR.LeaveManagement.Application
         public static void ConfigureApplicationServices(this IServiceCollection services)
         {
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            Console.WriteLine("this is service");
         }
     }
 }
